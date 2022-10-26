@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Individual</title>
+    <link rel="stylesheet" href="Css/Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1 class="txt"> Codificador Online</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="box">
+                <form name="form">
+                    <h1>Codificador</h1>
+                    <div>
+                     <p>Selecione o método de criptografia</p>
+                        <select class="form-select form-select-sm" id="sel">
+                        <option id="b64" value="base64">base64</option>
+                        <option id="cesar" value="cifrad">Cifra de César</option>
+                        </select>
+                    </div><br>
+                    <div>
+                   
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="mensagem" class="a" id="mensagem" placeholder="Mensagem" required=""></textarea>
+                    </div>
+                    <br>
+                    <div>
+                      <div class="form-check">
+                            <input class="form-check-input" type="radio"    name="botaoradio" id="code" checked>
+                            <label for="code" class="form-check-label" >
+                            Codificar
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="botaoradio" id="decode" >
+                            <label for="decode" class="form-check-label">
+                                Decodificar
+                            </label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="resultado" id="resultado" class="a" placeholder="Mensagem criptografada" readonly></textarea>
+                    </div>
+                    <br><br>
+                    
+                    <button id="btn" nome="btn">Codificar Mensagem!</button>
+                       
+                </form>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="LE">
+            <a href="https://www.linkedin.com/in/gabriel-lima-6a3623253/0" target="_blank"> <img class="icone"
+                    src="./imagens/github (1).png" alt="ícone github"></a>
+
+            <a href="https://www.linkedin.com/in/gabriel-lima-6a3623253/0" target="_blank"><img class="icone"
+                    src="./imagens/linkedin.png" alt="ícone linkedin"
+                    href="https://www.linkedin.com/in/gabriel-lima-6a3623253/0" target="_blank">
+            </a>
+        </div>
+        <div class="centro">
+            <p></p>
+        </div>
+        <div class="LD">
+            <p class="txt">Projetado por Gabriel de Lima</p>
+
+        </div>
+
+    </footer>
+
+
+
+
+<script src="js.js"></script>
+</body>
+
+</html>
